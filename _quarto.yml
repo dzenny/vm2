@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4200
+    browser: true
+    watch-inputs: true
+    navigate: true    
+
+website:
+  title: "ВМ 2 курс"
+  image: images/academy.png
+  favicon: images/logo.png
+  page-navigation: true
+
+  sidebar:
+    style: "floating"
+    search: true
+    title: "Темы"
+    contents:
+      - section: "Т20. Числовые ряды" 
+        contents:
+          - text: 'ПЗ 20.4 Решение комплексных задач по теме "Числовые ряды"'
+            file: t20-4.qmd
+
+  navbar:
+    background: primary
+    search: true
+    collapse-below: lg
+    logo: images/logo.png
+    logo-alt: "СПСА"
+    logo-href: about.qmd
+    left:
+      - text: Содержание
+        href: index.qmd        
+      - text: Ресурсы
+        file: about.qmd
+
+  page-footer: "&copy; ФГБОУ ВО СПСА ГПС МЧС России"  
+
+format:
+  html:
+    mainfont: "Times New Roman"
+    theme:
+      dark: slate
+      light: sandstone 
+    css: styles.css
+    toc: true
+
+
+
+

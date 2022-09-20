@@ -1,0 +1,17 @@
+{
+  "about.qmd": {
+    "about.html": "bc40f6ca"
+  },
+  "index.qmd": {
+    "index.html": "2cae7474"
+  },
+  "t20-4.qmd": {
+    "t20-4.html": "8d1e9370"
+  },
+  "commons/choose-variant-kpz.qmd": {
+    "choose-variant-kpz.html": "8371d67f"
+  },
+  "test.qmd": {
+    "test.html": "c96c9124"
+  }
+}

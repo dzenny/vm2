@@ -1,0 +1,59 @@
+/* css styles */
+
+/*-- Hide unused tabs in grouped tab-sets --*/
+
+div.panel-tabset.hide-tabs ul.nav.nav-tabs {
+    display: none;
+}
+
+div.panel-tabset.hide-tabs div.tab-content {
+    border-top: 1px solid #dfd7ca;
+    padding-bottom: 0;
+}
+
+div.panel-tabset.hide-tabs ol.tab-pane {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-- Hide tab content for "chooser" grouped tab-sets --*/
+
+div.panel-tabset.chooser ul.nav.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 1em;
+}
+
+div.panel-tabset.chooser div.tab-content {
+    border-top: 1px solid #dfd7ca;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.panel-tabset.chooser li.nav-item {
+    min-width: 3em;
+    text-align: center;
+}
+
+
+/*-- Hide tab content for "chooser" grouped tab-sets --*/
+
+div.panel-tabset.only-tabs ul.nav.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 1em;
+}
+
+div.panel-tabset.only-tabs div.tab-content {
+    display: none; 
+}
+
+div.panel-tabset.only-tabs li.nav-item {
+    min-width: 3em;    
+    text-align: center;
+}
+
+
+
+
+

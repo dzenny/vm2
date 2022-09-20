@@ -1,0 +1,350 @@
+# ПЗ 20.4 Решение комплексных задач по теме "Числовые ряды"
+
+{{< include commons/choose-variant-kpz.qmd >}}
+
+Установить сходимость или расходимость рядов:
+
+::: {.panel-tabset group='variant' .hide-tabs}
+
+## &nbsp;
+
+$\text{Вариант не выбран}\phantom{\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 8n-1 \right)\left( 2n+3 \right)}{\left( 4n-6 \right)}}$
+
+$\phantom{\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~n}{1+{{n}^{2}}}}$
+
+$\phantom{\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3{{n}^{2}}+1}{2{{n}^{2}}+1} \right)}^{n}}}$
+
+$\phantom{\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{3n-2}{{{6}^{n}}}}$
+
+
+## 1
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 8n-1 \right)\left( 2n+3 \right)}{\left( 4n-6 \right)\left( n+1 \right)}$
+
+2.	$\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~n}{1+{{n}^{2}}}$
+
+3.	$\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3{{n}^{2}}+1}{2{{n}^{2}}+1} \right)}^{n}}$
+
+4.	$\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{3n-2}{{{6}^{n}}}$
+
+
+## 2
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 3n-1 \right)\left( n+1 \right)}{n\left( 2n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~{{n}^{3}}}{n\left( n+2 \right)\left( n+3 \right)}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2{{n}^{3}}+n}{3{{n}^{3}}11} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{2}^{n}}}{7n+2}$
+
+
+## 3
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n+2 \right)\left( n+1 \right)}{4{{n}^{2}}}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{10+9\cos n}{\sqrt[11]{{{n}^{5}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{5n-3}{7n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{13}^{n}}}{n-1}$
+
+
+## 4
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{7{{n}^{2}}}{\left( n-1 \right)\left( 3n+2 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{2+\sin n}{n\left( {{n}^{2}}+3 \right)}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{n}{2n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{3}^{n}}}{\left( n-1 \right)!}$
+
+
+## 5
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n+3 \right)\left( 2n-1 \right)}{\left( n+2 \right)\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{2}}+1}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2n+2}{5n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{7}^{n}}}{3n}$
+
+
+## 6
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 7n-1 \right)\left( 5n+1 \right)}{\left( n-2 \right)\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{5+2\cos n}{\sqrt[5]{{{n}^{3}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3n+1}{5n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{n!\left( 5n-2 \right)}$
+
+
+## 7
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-1 \right)\left( n+1 \right)}{2n\left( 12n-3 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~{{n}^{2}}}{2+{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{n}{2n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( n+1 \right)!\cdot{{7}^{n}}}$
+
+
+## 8
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-8 \right)\left( 3n+2 \right)}{5{{n}^{2}}}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{3}}+2}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4n-1}{9n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{9}^{n}}}{\left( n+1 \right)!}$
+
+
+## 9
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n-3 \right)\left( n+2 \right)}{10{{n}^{2}}-11}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{7+3\cos n}{\sqrt[7]{{{n}^{5}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4+3n}{6+5n} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{n+2}{{{3}^{n}}}$
+
+
+## 10
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n-1 \right)\left( 4n-3 \right)}{n\left( n+1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\sin^{2}~3n}{{{n}^{4}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{9n-1}{2n+5} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{2n+1}{n!}$
+
+
+## 11
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{13{{n}^{2}}-2n}{\left( 5n+4 \right)\left( n+2 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{n~\cos^{2}~n}{{{n}^{3}}+5}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2n-5}{7n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{8}^{n}}}{\left( n+2 \right)!}$
+
+
+## 12
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{5{{n}^{2}}}{\left( n+1 \right)\left( n+3 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~n}{{{n}^{5}}+5}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4n+3}{3n+2} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( 2n+1 \right)!\cdot{{3}^{n}}}$
+
+
+## 13
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 3n-1 \right)\left( 4n+3 \right)}{2n\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{\sin^{2}}~5n}{{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3{{n}^{2}}-2}{5{{n}^{2}}-1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{5}^{n}}}{\left( n+1 \right)!}$
+
+
+## 14
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-1 \right)\left( n+3 \right)}{3n\left( n+1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~n}{{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{7{{n}^{2}}+5}{2{{n}^{2}}+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( n+1 \right)!\cdot{{2}^{n}}}$
+
+
+## 15
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n+2 \right)\left( n+1 \right)}{7n\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{4}}+1}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{11{{n}^{2}}-3}{8{{n}^{2}}+5} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( n+2 \right)!\cdot{{11}^{n}}}$
+
+
+## 16
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 8n-1 \right)\left( 2n+3 \right)}{\left( 4n-6 \right)\left( n+1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}~n}{1+{{n}^{2}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3{{n}^{2}}+1}{2{{n}^{2}}+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{3n-2}{{{6}^{n}}}$
+
+
+## 17
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 3n-1 \right)\left( n+1 \right)}{n\left( 2n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}
+~{{n}^{3}}}{n\left( n+2 \right)\left( n+3 \right)}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2{{n}^{3}}+n}{3{{n}^{3}}11} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{2}^{n}}}{7n+2}$
+
+
+## 18
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n+2 \right)\left( n+1 \right)}{4{{n}^{2}}}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{10+9\cos n}{\sqrt[11]{{{n}^{5}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{5n-3}{7n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{13}^{n}}}{n-1}$
+
+
+## 19
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{7{{n}^{2}}}{\left( n-1 \right)\left( 3n+2 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{2+\sin n}{n\left( {{n}^{2}}+3 \right)}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{n}{2n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{3}^{n}}}{\left( n-1 \right)!}$
+
+
+## 20
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n+3 \right)\left( 2n-1 \right)}{\left( n+2 \right)\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{2}}+1}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2n+2}{5n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{7}^{n}}}{3n}$
+
+
+## 21
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 7n-1 \right)\left( 5n+1 \right)}{\left( n-2 \right)\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{5+2\cos n}{\sqrt[5]{{{n}^{3}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3n+1}{5n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{n!\left( 5n-2 \right)}$
+
+
+## 22
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-1 \right)\left( n+1 \right)}{2n\left( 12n-3 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}
+~{{n}^{2}}}{2+{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{n}{2n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{2}{\left( n+1 \right)!\cdot{{7}^{n}}}$
+
+
+## 23
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-8 \right)\left( 3n+2 \right)}{5{{n}^{2}}}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{3}}+2}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4n-1}{9n+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{9}^{n}}}{\left( n+1 \right)!}$
+
+
+## 24
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n-3 \right)\left( n+2 \right)}{10{{n}^{2}}-11}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{7+3\cos n}{\sqrt[7]{{{n}^{5}}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4+3n}{6+5n} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{n+2}{{{3}^{n}}}$
+
+
+## 25
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n-1 \right)\left( 4n-3 \right)}{n\left( n+1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{\sin^{2}}~3n}{{{n}^{4}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{9n-1}{2n+5} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{2n+1}{n!}$
+
+## 26
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{13{{n}^{2}}-2n}{\left( 5n+4 \right)\left( n+2 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{n~{\cos^{2}}~n}{{{n}^{3}}+5}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{2n-5}{7n+3} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{8}^{n}}}{\left( n+2 \right)!}$	
+
+## 27
+
+1.	$\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{5{{n}^{2}}}{\left( n+1 \right)\left( n+3 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}
+~n}{{{n}^{5}}+5}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{4n+3}{3n+2} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( 2n+1 \right)!\cdot{{3}^{n}}}$
+
+## 28
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 3n-1 \right)\left( 4n+3 \right)}{2n\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{\sin^{2}}~5n}{{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{3{{n}^{2}}-2}{5{{n}^{2}}-1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{5}^{n}}}{\left( n+1 \right)!}$	
+
+## 29
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( n-1 \right)\left( n+3 \right)}{3n\left( n+1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\mathrm{arctg}
+~n}{{{n}^{3}}}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{7{{n}^{2}}+5}{2{{n}^{2}}+1} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{2\left( n+1 \right){{!}^{n}}}$	
+
+## 30
+
+1. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{\left( 5n+2 \right)\left( n+1 \right)}{7n\left( n-1 \right)}$
+
+2. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{{{\cos }^{2}}n}{{{n}^{4}}+1}$
+
+3. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,{{\left( \frac{11{{n}^{2}}-3}{8{{n}^{2}}+5} \right)}^{n}}$
+
+4. $\displaystyle\underset{n=1}{\overset{\infty }{\mathop \sum }}\,\frac{1}{\left( n+2 \right)!\cdot{{11}^{n}}}$
+
+
+
+:::

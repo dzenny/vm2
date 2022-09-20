@@ -1,0 +1,20 @@
+/*-- scss:rules --*/
+
+/*-- Hide unused tabs in grouped tab-sets --*/
+div.panel-tabset.no-headers ul.nav.nav-tabs {
+    display: none;
+}
+
+div.panel-tabset.no-headers div.tab-content {
+    border-top: 1px solid --bs-border-color;
+}
+
+/*-- Hide unused tabs in grouped tab-sets --*/
+div.panel-tabset.hide-tabs ul.nav.nav-tabs {
+    display: none;
+}
+
+div.panel-tabset.hide-tabs div.tab-content {
+    border-top: 1px solid --bs-border-color;
+}
+
