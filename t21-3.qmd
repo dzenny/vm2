@@ -116,9 +116,10 @@ $$\underset{n=1}{\overset{\infty }{\mathop \sum }}\frac{{{n}^{2}}{{(x-2)}^n}}{{{
 Разложение в ряд Маклорена некоторых элементарных функций:
 $${{e}^{x}}=1+\frac{x}{1!}+\frac{{{x}^{2}}}{2!}+\frac{{{x}^{3}}}{3!}+\ldots +\frac{{{x}^{n}}}{n!}+\ldots x\in ( -\infty ;+\infty  )$$ 
 $$\sin x=x-\frac{{{x}^{3}}}{3!}+\frac{{{x}^{5}}}{5!}-\ldots +\frac{{{( -1 )}^{n-1}}~{{x}^{2n-1}}}{( 2n-1 )!}+\ldots, x\in ( -\infty ;+\infty  )$$ 
-$$\cos x=1-\frac{{{x}^{2}}}{2!}+\frac{{{x}^{4}}}{4!}-\ldots +\frac{{{( -1 )}^{n}}{{x}^{2n}}}{( 2n )!}+\ldots ~~~~~~~~~~~~~~~~x\in ( -\infty ;+\infty  )$$ 
-$$\ln ( 1+x )=x-\frac{{{x}^{2}}}{2}+\frac{{{x}^{3}}}{3}-\ldots +\frac{{{( -1 )}^{n-1}}{{x}^{n}}}{n}+\ldots ~~~~~~x\in ( -1;1 )$$ 
-$${{( 1+x )}^{\alpha }}=1+\frac{\alpha }{1!}x+\frac{\alpha ~( \alpha -1 )}{2!}{{x}^{2}}+\ldots +\frac{\alpha ~( \alpha -1 )\ldots ( \alpha -n+1 )}{n!}{{x}^{n}}+\ldots $$
+$$\cos x=1-\frac{x^2}{2!}+\frac{{x^4}}{4!}-\ldots +\frac{(-1)^n}{x^{2n}}{(2n)!}+\ldots,~x\in(-\infty;\infty)$$ 
+$$\ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\ldots+\frac{(-1)^{n-1}x^n}{n}+\ldots,~x\in(-1;1)$$ 
+$$(1+x)^\alpha=1+\frac{\alpha }{1!}x+\frac{\alpha(\alpha-1)}{2!}{{x}^{2}}+\ldots$$
+$$+\frac{\alpha(\alpha-1)\ldots( \alpha -n+1)}{n!}{{x}^{n}}+\ldots$$
 
 Примеры. Разложить в ряд Маклорена функцию
 
@@ -160,10 +161,13 @@ $$=1+{{x}^{2}}-{{x}^{4}}+{{x}^{6}}-{{x}^{8}}\ldots,$$
 
 ## $\ln(1+\frac{x}3)$
 **Решение.**
-Так как $\ln ( 1+x )=x-\frac{{{x}^{2}}}{2}+\frac{{{x}^{3}}}{3}-\ldots +\frac{{{( -1 )}^{n-1}}{{x}^{n}}}{n}+\ldots $ при $x\in ( -1;1 )$, то вместо $x$ в эту формулу будем подставлять $\frac{x}{3}$:
-4.		$f( x )=\ln ( 1+\frac{x}{3} )=\frac{x}{3}-\frac{{{( \frac{x}{3} )}^{2}}}{2}+\frac{{{( \frac{x}{3} )}^{3}}}{3}-\ldots +\frac{{{( -1 )}^{n-1}}{{( \frac{x}{3} )}^{n}}}{n}+\ldots =$
- $=\frac{x}{3}-\frac{{{x}^{2}}}{18}+\frac{{{x}^{3}}}{81}-\ldots +\frac{{{( -1 )}^{n-1}}{{x}^{n}}}{{{( 3 )}^{n}}n}+\ldots ,~~$   $-1<x\le 1$ ; $-3<\frac{x}{3}\le 3$. 
-Область сходимости $( -3;3 )$
+Так как 
+$$\ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\ldots,$$
+при $x\in ( -1;1 )$, то вместо $x$ в эту формулу будем подставлять $\frac{x}{3}$:
+$$f(x)=\ln(1+\frac{x}{3})=\frac{x}{3}-\frac{{{(\frac{x}{3})}^{2}}}{2}+\frac{{{( \frac{x}{3} )}^{3}}}{3}-\ldots=$$
+$$=\frac{x}{3}-\frac{{{x}^{2}}}{18}+\frac{{{x}^{3}}}{81}-\ldots,$$
+где  $-1<x\le 1$, то есть $-3<\frac{x}{3}\le 3$. 
+Область сходимости $(-3;3)$
 
 
 ## $\displaystyle\frac{1}{(1+x)^2}$
@@ -270,7 +274,7 @@ $$e^{13x}$$
 $$\frac{1}{1+x^{3}}$$
 
 ## 24
-$$\marhrm{arctg}\left(\frac{3x}{2}\right)$$
+$$\mathrm{arctg}\left(\frac{3x}{2}\right)$$
 
 ## 25
 $$\sqrt[5]{1+x}$$
