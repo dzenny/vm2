@@ -22,6 +22,10 @@ website:
         contents:
           - text: 'ПЗ 20.4 Решение комплексных задач по теме "Числовые ряды"'
             file: t20-4.qmd
+      - section: "Т21. Функциональные ряды" 
+        contents:
+          - text: 'ПЗ 21.3 Решение комплексных задач по теме "Функциональные ряды"'
+            file: t21-3.qmd
 
   navbar:
     background: primary
