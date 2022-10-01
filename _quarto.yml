@@ -11,7 +11,6 @@ website:
   title: "ВМ 2 курс"
   image: images/academy.png
   favicon: images/logo.png
-  page-navigation: true
 
   sidebar:
     style: "floating"
