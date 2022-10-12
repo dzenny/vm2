@@ -13,5 +13,17 @@
   },
   "test.qmd": {
     "test.html": "c96c9124"
+  },
+  "t21-3.qmd": {
+    "t21-3.html": "e9162191"
+  },
+  "template.qmd": {
+    "template.html": "72896c88"
+  },
+  "accordion.qmd": {
+    "accordion.html": "450cafe9"
+  },
+  "t22-3-fourie.qmd": {
+    "t22-3-fourie.html": "62d6d145"
   }
 }

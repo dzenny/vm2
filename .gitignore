@@ -1,0 +1,9 @@
+/.vscode/*
+calcs
+/.arhive/*
+/.quarto/*
+accordion.qmd
+docs/accordion.html
+docs/template.html
+template.qmd
+/.luarc.json
