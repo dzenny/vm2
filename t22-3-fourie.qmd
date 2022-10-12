@@ -1,4 +1,4 @@
-::: {.panel-tabset group='variant-labe' .chooser}
+::: {.panel-tabset group='variant-lab' .chooser}
 
 ## &nbsp;
 ВАРИАНТ НЕ ВЫБРАН -- ВЫБЕРИТЕ ВАРИАНТ ВЫШЕ&nbsp;&uArr;
@@ -24,7 +24,7 @@
 ::: {.panel-tabset group='variant-lab' .hide-tabs}
 
 ## &nbsp;
-ВАРИАНТ НЕ ВЫБРАН -- ВЫБЕРИТЕ ВАРИАНТ ВЫШЕ&nbsp;&uArr;
+ВАРИАНТ НЕ ВЫБРАН
 
 ## I
 ```{shinylive-python}
