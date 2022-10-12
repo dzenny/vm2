@@ -25,6 +25,10 @@ website:
         contents:
           - text: 'ПЗ 21.3 Решение комплексных задач по теме "Функциональные ряды"'
             file: t21-3.qmd
+      - section: "Т22. Функциональные ряды" 
+        contents:
+          - text: 'Лаб 22.3 Разложение функций в ряд Фурье'
+            file: t22-3-fourie.qmd
 
   navbar:
     background: primary
@@ -43,6 +47,8 @@ website:
 
 format:
   html:
+    filters:
+      - shinylive
     mainfont: "Times New Roman"
     theme:
       dark: slate
